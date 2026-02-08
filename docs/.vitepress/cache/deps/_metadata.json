@@ -1,0 +1,40 @@
+{
+  "hash": "0aa6e6b2",
+  "configHash": "aab7b35c",
+  "lockfileHash": "1fd1595b",
+  "browserHash": "9d6328f8",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "a040e759",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "fa4c8085",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "bac82222",
+      "needsInterop": false
+    },
+    "@theme/index": {
+      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
+      "file": "@theme_index.js",
+      "fileHash": "9f16d446",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TIOJJDAG": {
+      "file": "chunk-TIOJJDAG.js"
+    },
+    "chunk-XKDLJUKD": {
+      "file": "chunk-XKDLJUKD.js"
+    }
+  }
+}

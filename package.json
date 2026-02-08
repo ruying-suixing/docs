@@ -1,0 +1,21 @@
+{
+  "name": "vitepress-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "deploy": "npm run docs:build && gh-pages -d docs/dist -t true -r https://github.com/ruying-suixing/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vitepress": "^1.1.4"
+  }
+}
