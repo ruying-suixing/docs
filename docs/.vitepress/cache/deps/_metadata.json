@@ -1,31 +1,55 @@
 {
-  "hash": "0aa6e6b2",
-  "configHash": "aab7b35c",
-  "lockfileHash": "1fd1595b",
-  "browserHash": "9d6328f8",
+  "hash": "90d3cdc9",
+  "configHash": "291ea4f9",
+  "lockfileHash": "e5dfe89c",
+  "browserHash": "0b8edbe5",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "a040e759",
+      "fileHash": "8bc97930",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "fa4c8085",
+      "fileHash": "731938c9",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "bac82222",
+      "fileHash": "0a43e3b2",
       "needsInterop": false
     },
-    "@theme/index": {
-      "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
-      "file": "@theme_index.js",
-      "fileHash": "9f16d446",
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "b83d9f48",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "92dc15a6",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "f3cae7d6",
+      "needsInterop": false
+    },
+    "nprogress-v2/dist/index.js": {
+      "src": "../../../../node_modules/nprogress-v2/dist/index.js",
+      "file": "nprogress-v2_dist_index__js.js",
+      "fileHash": "2e8446c8",
+      "needsInterop": true
+    },
+    "canvas-confetti": {
+      "src": "../../../../node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "4726f985",
       "needsInterop": false
     }
   },
@@ -35,6 +59,9 @@
     },
     "chunk-XKDLJUKD": {
       "file": "chunk-XKDLJUKD.js"
+    },
+    "chunk-JVWSFFO4": {
+      "file": "chunk-JVWSFFO4.js"
     }
   }
 }

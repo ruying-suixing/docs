@@ -16,6 +16,14 @@
   "type": "module",
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "vitepress": "^1.1.4"
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.1.4",
+    "vitepress-plugin-group-icons": "^1.7.1"
+  },
+  "dependencies": {
+    "@iconify-json/vscode-icons": "^1.2.41",
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.4",
+    "nprogress-v2": "^1.1.10"
   }
 }

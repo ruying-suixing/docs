@@ -1,22 +1,40 @@
 ---
 layout: home
-title: 我的文档站点
 hero:
-  name: 文档站点
-  text: 基于 VitePress v1.1.4 构建
-  tagline: 轻量、高性能的文档解决方案
+  name: "如形の小站"
+  text: "文档"
+  tagline: "为 OIer 们提供宝贵的建站经验和更加广阔的平台。"
+  image:
+    src: /assets/image/tbicon.png
+    alt: Ruyingsuixing's blog Logo
   actions:
     - theme: brand
-      text: 快速开始
-      link: /docs/guide/intro
+      text: 加入咕链
+      link: /gugo/join
     - theme: alt
-      text: 查看 GitHub
-      link: https://github.com/ruying-suixing
+      text: 学习建站
+      link: /learn/intro
+    - theme: sponsor
+      text: 回到主页
+      link: https://rusin.qzz.io
 features:
-  - title: 简洁高效
-    details: 基于 Vite 构建，启动快、热更新快
-  - title: 自定义强
-    details: 支持自定义主题、样式、布局
-  - title: 易部署
-    details: 一键部署到 GitHub Pages
+  - icon: 🧩
+    title: 精选文章
+    details: 加入咕链的网页全部经过人工筛选，确保流量从源头就是干净优质的，懂你所需。
+  - icon: 🛠️
+    title: 安全性高
+    details: 全部 HTTPS 抗劫持；前后端完全开源，不侵犯隐私；Action 自动部署，无人工干预。
+  - icon: 🚝
+    title: 助推流量
+    details: 支持网络的开放，获得更多的流量；发现更多优质的网站，来一场说走就走的网上旅行。
+  - title: Sweetalert
+    details: 美观又轻松，自定义多样化
+    link: https://sweetalert.js.org/
 ---
+<DataPanel />
+
+::: tip 提示
+如果你是想要加入咕链的 OIer，欢迎访问[加入指南](/gugo/join)。
+
+<HomeUnderline />
+<confetti />
