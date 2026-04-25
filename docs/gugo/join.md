@@ -87,7 +87,7 @@
 > 3. 底部包含开往备案号 和 指向 [开往偏好设置](https://www.travellings.cn/preference) 的链接
 > 4. 嵌入 `https://www.travellings.cn/assets/js/go.js` 可直接实现跳转逻辑，并自动使用用户的偏好设置
 > 5. 设计精美/有创意
-> 6. 请一并修改 [其他页面一览](/docs/pages)，加入你的页面描述和截图
+> 6. 请一并修改 其他页面一览，加入你的页面描述和截图
 > 7. 请一并修改 **开往偏好设置** （位于 `.vitepress/theme/components/Preferences.vue` ），将你的自定义页面加入到设置菜单中（位于第 `34` 行）
 > 8. 提个 Pull Request，并 @ 最近活跃的开往维护组成员
 
