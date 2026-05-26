@@ -6,10 +6,10 @@
 
 ### $3/14 \sim 3/16$
 
-- 创建并自定义 [Rtab 新标签页](https://dash.lovestomyblog.com)和[影形工具箱](https://tool.ruyingsuixing.dpdns.org)。
-- 对[博客网站](https://ruyingsuixing.dpdns.org)进行备案审核。
-- [博客网站](https://ruyingsuixing.dpdns.org)新增 JS 随机背景图。
-- Vitepress 前端[文档首页](https://docs.ruyingsuixing.dpdns.org)不蒜子统计进行脚本引入和修复。
+- 创建并自定义 [Rtab 新标签页](https://dash.lovestomyblog.com)和[影形工具箱](https://tool.rusin.lol)。
+- 对[博客网站](https://rusin.lol)进行备案审核。
+- [博客网站](https://rusin.lol)新增 JS 随机背景图。
+- Vitepress 前端[文档首页](https://docs.rusin.lol)不蒜子统计进行脚本引入和修复。
 - 更新“如影随形”品牌logo：
   :::info
   ![logo.png](https://cfbed.1314883.xyz/file/1773667129737_屏幕截图_2025-09-06_112818.webp)
@@ -26,3 +26,20 @@
 
 - 更改博客框架为 Hexo。
 - 新增博客一图流。
+
+### $4/13 \sim 4/27$
+
+- 更换域名。
+- 新增图床，但因 Huggingface 无法注册暂时失败。
+- 迁移[洛谷](https://www.luogu.com.cn/user/1620655)文章到[博客](https://blog.rusin.lol)。
+
+### $4/29 \sim 4/31$
+
+- 考虑开发洛谷相关服务网站，但最终废弃。
+- 添加 Giscus 评论。
+
+### $5/6 \sim 5/25$
+
+- 持续对网站进行优化。
+- 购买 rusin.lol 域名。
+- 博客评论切换到 [Waline](https://waline.js.org)。
