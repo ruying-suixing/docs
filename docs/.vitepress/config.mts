@@ -35,14 +35,14 @@ export default defineConfig({
         'data-reactions-enabled': '1',
         'data-emit-metadata': '0',
         'data-input-position': 'top',
-        'data-theme': 'light_tritanopia',
+        'data-theme': '',
         'data-lang': 'zh-CN',
         crossorigin: 'anonymous',
         async: 'true'
       }
     ]
   ],
-  title: '文档 - 如形の小站',
+  title: '如形の文档',
   description: '为 OIer 们提供宝贵的建站经验和更加广阔的平台。',
   base: '/',
   lastUpdated: true,
@@ -124,7 +124,7 @@ export default defineConfig({
     notFound: {
       title: '页面未找到',
       quote:
-        '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
+        '但如果你不改变方向，并且继续寻找，你最终会到达你所前往的地方。',
       linkLabel: '前往首页',
       linkText: '带我回首页'
     },
