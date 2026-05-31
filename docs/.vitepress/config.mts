@@ -26,14 +26,17 @@ export default defineConfig({
       'script',
       {
         src: 'https://giscus.app/client.js',
-        'data-repo': 'ruying-suixing/blog',
-        'data-repo-id': 'R_kgDORsPOeg',
+        'data-repo': 'ruying-suixing/docs',
+        'data-repo-id': 'R_kgDORLK1GA',
         'data-category': 'Announcements',
-        'data-category-id': 'DIC_kwDORsPOes4C5KZw',
+        'data-category-id': 'DIC_kwDORLK1GM4C-NMs',
         'data-mapping': 'pathname',
-        'data-reaction-input-position': 'bottom', // 如配置中 option 里有 input 位置的话
-        'data-theme': 'light', // 默认主题, 你可以根据系统动态切换
-        'data-lang': 'zh-CN',    // 语言
+        'data-strict': '0',
+        'data-reactions-enabled': '1',
+        'data-emit-metadata': '0',
+        'data-input-position': 'top',
+        'data-theme': 'light_tritanopia',
+        'data-lang': 'zh-CN',
         crossorigin: 'anonymous',
         async: 'true'
       }
