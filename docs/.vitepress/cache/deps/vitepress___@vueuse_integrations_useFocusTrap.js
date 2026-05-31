@@ -1,14 +1,18 @@
 import {
+  notNullish,
+  toArray,
   tryOnScopeDispose,
   unrefElement
-} from "./chunk-TIOJJDAG.js";
+} from "./chunk-O2M2NZNN.js";
 import {
-  ref,
+  computed,
+  shallowRef,
+  toValue,
   watch
 } from "./chunk-XKDLJUKD.js";
 import "./chunk-JVWSFFO4.js";
 
-// node_modules/tabbable/dist/index.esm.js
+// node_modules/.pnpm/tabbable@6.4.0/node_modules/tabbable/dist/index.esm.js
 var candidateSelectors = ["input:not([inert]):not([inert] *)", "select:not([inert]):not([inert] *)", "textarea:not([inert]):not([inert] *)", "a[href]:not([inert]):not([inert] *)", "button:not([inert]):not([inert] *)", "[tabindex]:not(slot):not([inert]):not([inert] *)", "audio[controls]:not([inert]):not([inert] *)", "video[controls]:not([inert]):not([inert] *)", '[contenteditable]:not([contenteditable="false"]):not([inert]):not([inert] *)', "details>summary:first-of-type:not([inert]):not([inert] *)", "details:not([inert]):not([inert] *)"];
 var candidateSelector = candidateSelectors.join(",");
 var NoElement = typeof Element === "undefined";
@@ -358,7 +362,7 @@ var isFocusable = function isFocusable2(node, options) {
   return isNodeMatchingSelectorFocusable(options, node);
 };
 
-// node_modules/focus-trap/dist/focus-trap.esm.js
+// node_modules/.pnpm/focus-trap@7.8.0/node_modules/focus-trap/dist/focus-trap.esm.js
 function _arrayLikeToArray(r, a) {
   (null == a || a > r.length) && (a = r.length);
   for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e];
@@ -1269,12 +1273,12 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
   return trap;
 };
 
-// node_modules/@vueuse/integrations/useFocusTrap.mjs
+// node_modules/.pnpm/@vueuse+integrations@12.8.2_focus-trap@7.8.0/node_modules/@vueuse/integrations/useFocusTrap.mjs
 function useFocusTrap(target, options = {}) {
   let trap;
   const { immediate, ...focusTrapOptions } = options;
-  const hasFocus = ref(false);
-  const isPaused = ref(false);
+  const hasFocus = shallowRef(false);
+  const isPaused = shallowRef(false);
   const activate = (opts) => trap && trap.activate(opts);
   const deactivate = (opts) => trap && trap.deactivate(opts);
   const pause = () => {
@@ -1289,12 +1293,19 @@ function useFocusTrap(target, options = {}) {
       isPaused.value = false;
     }
   };
+  const targets = computed(() => {
+    const _targets = toValue(target);
+    return toArray(_targets).map((el) => {
+      const _el = toValue(el);
+      return typeof _el === "string" ? _el : unrefElement(_el);
+    }).filter(notNullish);
+  });
   watch(
-    () => unrefElement(target),
-    (el) => {
-      if (!el)
+    targets,
+    (els) => {
+      if (!els.length)
         return;
-      trap = createFocusTrap(el, {
+      trap = createFocusTrap(els, {
         ...focusTrapOptions,
         onActivate() {
           hasFocus.value = true;

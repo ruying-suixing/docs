@@ -13,10 +13,10 @@ hero:
       link: /gugo/join
     - theme: alt
       text: 学习建站
-      link: /learn/intro
+      link: /guide/quickly-start
     - theme: sponsor
-      text: 回到主页
-      link: https://rusin.qzz.io
+      text: 更新日志
+      link: /changelog
 features:
   - icon: 🧩
     title: 精选文章
