@@ -3,7 +3,8 @@
 @import './blur.css';
 @import './marker.css';
 @import './rainbow.css';
-@import 'custom-block.css';
+@import './custom-block.css';
 @import "./blockquote.css";
 @import "./vp-code.css";
 @import "./vp-code-group.css";
+@import "./font.css";

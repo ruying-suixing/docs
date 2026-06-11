@@ -1,0 +1,11 @@
+/* 覆盖全局基础字体 */
+:root {
+    --vp-font-family-base: "LXGW WenKai Screen", system-ui, -apple-system, sans-serif;
+  /* 代码字体如果也要改可以加 */
+    --vp-font-family-mono: "LXGW WenKai Screen", monospace;
+}
+
+/* 兜底强制全局文字 */
+body {
+    font-family: "LXGW WenKai Screen", system-ui, -apple-system, sans-serif !important;
+}

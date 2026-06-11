@@ -40,6 +40,16 @@ export default defineConfig({
         crossorigin: 'anonymous',
         async: 'true'
       }
+    ],
+    [
+      'link',
+      {
+        rel: 'preload',
+        href: 'https://dash.amlg.top/public/lwsw.min.css',
+        as: 'style',
+        crossorigin: 'anonymous',
+        onload: "this.rel='stylesheet'"
+      }
     ]
   ],
   title: '如形の文档',
